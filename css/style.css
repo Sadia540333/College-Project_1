@@ -1,0 +1,253 @@
+/* 
+font-family: 'Playfair Display', serif;
+*/
+
+*{
+    text-decoration: none !important;
+}
+/* -------------header part Start-------------- */
+#header{
+    background: #26292d !important;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+
+}
+.navbar-brand img{
+    height:60px; 
+}
+nav{
+    padding: 0px !important;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #babcbc !important;
+    margin-left: 20px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color: #b98d36 !important;
+    
+}
+nav ul li a.active{
+    color: #808088 !important;
+}
+.sing-up button{
+    border: none;
+    background: none;
+}
+.sing-up button a{
+    border: 1px solid #b98d36;
+    padding: 12px 20px;
+    color: #babcbc !important;
+    border-radius:25px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+ }
+  .sing-up button a:hover{
+    color: #b98d36 !important;
+ } 
+ .drop-down ul li a{
+    margin-left: 0px !important;
+ }
+/* -------------header part End-------------- */
+
+
+/* -------------banner part Start-------------- */
+#banner_section .banner_item .banner_photo h1{
+    color: red;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    margin: 0 auto;
+    left: 50%;
+/* transform: translate(-50%,-50%); */
+}
+#banner_section .banner_item .banner img{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+#banner_section .slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#banner_section .slick-dots li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#banner_section .slick-dots li button{
+    border: none;
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #a4a4a4;
+}
+#banner_section .slick-dots .slick-active button{
+   background: #b98d36;
+	width: 25px;
+    border-radius: 20px;
+}
+/* -------------Banner part End-------------- */
+
+/* -------------Restaurant History Part-Start-------------- */
+#restaurant_history{
+    padding-top: 70px;
+}
+#restaurant_history .title h1{
+    text-align: center;
+    color: #282b2e;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+}
+#restaurant_history .contant p{
+    color: #282b2e;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#restaurant_history .contant h6{
+    color: rgba(50, 51, 51, 0.8);
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 26px;   
+}
+#restaurant_history .shape img{
+    height: 100%;
+    width: 100%;
+}
+/* -------------Restaurant History Part-End-------------- */
+
+/* -------------Specials Combo Part-Start------------- */
+#specials_combo{
+    background:url(../images/speacial-bg.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+#specials_combo #specials_combo_title h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+#specials_combo #specials_combo_title p{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .5;
+}
+#specials_combo .card .special_combo_item .image{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+#Zoom_In{
+    overflow: hidden;
+}
+#specials_combo .card{
+    background: none;
+}
+#specials_combo .card .special_combo_item .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* transform: scale(1.5); */
+    transition: .6s ease-in-out;
+}
+#specials_combo .card .special_combo_item .image img:hover{
+    
+    transform: scale(1.5);
+}
+#specials_combo .card .special_combo_item .image .prise{
+    height: 35%;
+    width: 35%;
+    background: #282b2e;
+    border-radius: 50%;
+    z-index: 100;
+    position:absolute;
+    left: 10%;
+    top: -20%;
+    transform: translate(-50%);
+}
+#specials_combo .card .special_combo_item .combo_title_bottom{
+    color: #fff;
+    line-height: 35px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding: 25px;
+    transition: .4s;
+}
+#specials_combo .card .special_combo_item:hover .combo_title_bottom{
+    background: #282b2e;
+
+}
+#specials_combo .card .special_combo_item .combo_title_bottom a{
+    color: #fff;
+}
+
+#specials_combo .slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#specials_combo .slick-dots li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#specials_combo .slick-dots li button{
+    border: none;
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #a4a4a4;
+}
+#specials_combo .slick-dots .slick-active button{
+   background: #b98d36;
+	width: 25px;
+    border-radius: 20px;
+}
+
+/* -------------Specials Combo Part-End-------------- */
+/* .main_img img{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.main_img #Zoom_In img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.main_img #Zoom_In:hover img{
+    transform: scale(1.5);
+    
+}
+.sssss{
+    overflow: hidden;
+    
+} */
+
